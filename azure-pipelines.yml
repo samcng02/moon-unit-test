@@ -17,7 +17,16 @@ variables:
 steps:
 - task: NuGetToolInstaller@1
 
+
+    
 - task: NuGetCommand@2
+  displayName: NuGet v2 Restore
+  inputs:
+    command: restore                      
+    restoreSolution: '$(solution)'             ## Required when command = restore. Path to solution, packages.config, or project.json. Default: **/*.sln.
+    feedsToUse: 'select'                    ## Required. Feeds to use. 'select' | 'config'. Alias: selectOrConfig. Default: select.
+    vstsFeed: '<PROJECT_NAME>/<FEED_NAME>'  ## Required when feedsToUse == Select. Use packages from this Azure Artifacts feed. 
+    includeNuGetOrg: true                   ## Use packages from upstream (NuGet.org)
 
 - task: VSBuild@1
   inputs:
@@ -25,9 +34,9 @@ steps:
     msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:DesktopBuildPackageLocation="$(build.artifactStagingDirectory)\WebApp.zip" /p:DeployIisAppPath="Default Web Site"'
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
-    vsVersion: '17.0'
     restoreNugetPackages: false
 - task: VSTest@2
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+    
