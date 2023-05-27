@@ -17,27 +17,14 @@ variables:
 steps:
 # NuGet Installer v0
 # Installs or restores missing NuGet packages. Use NuGetAuthenticate@0 task for latest capabilities.
-- task: NuGetInstaller@0
-  inputs:
-    solution: '**/*.sln' # string. Required. Path to solution or packages.config. Default: **/*.sln.
-    #nugetConfigPath: # string. Path to NuGet.config. 
-    restoreMode: 'restore' # 'restore' | 'install'. Required. Installation type. Default: restore.
-    #noCache: false # boolean. Disable local cache. Default: false.
-    #nuGetRestoreArgs: # string. NuGet arguments. 
-  # Advanced
-    #verbosity: '-' # '-' | 'Quiet' | 'Normal' | 'Detailed'. Verbosity. Default: -.
-    nuGetVersion: '3.3.0' # '3.3.0' | '3.5.0.1829' | '4.0.0.2283' | 'custom'. Required. NuGet Version. Default: 3.3.0.
-    #nuGetPath: # string. Path to NuGet.exe.
+
 - task: NuGetToolInstaller@1
 - task: NuGetCommand@2
   inputs:
     command: 'restore'
     restoreSolution: '**/*.sln'
     feedsToUse: 'select'
-- task: DownloadGitHubNugetPackage@1
-  inputs:
-    packageName: 'AspectInjector'
-    version: '2.8.1'
+    
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
@@ -45,6 +32,7 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
     restoreNugetPackages: true
+    msbuildArchitecture: 'x64'
 
 - task: VSTest@2
   inputs:
