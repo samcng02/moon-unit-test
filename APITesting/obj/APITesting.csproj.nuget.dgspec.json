@@ -1,0 +1,170 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/moon/MockProject_Nguyetct1/APITesting/APITesting.csproj": {}
+  },
+  "projects": {
+    "/home/moon/MockProject_Nguyetct1/APITesting/APITesting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/moon/MockProject_Nguyetct1/APITesting/APITesting.csproj",
+        "projectName": "APITesting",
+        "projectPath": "/home/moon/MockProject_Nguyetct1/APITesting/APITesting.csproj",
+        "packagesPath": "/home/moon/.nuget/packages/",
+        "outputPath": "/home/moon/MockProject_Nguyetct1/APITesting/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/moon/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/moon/MockProject_Nguyetct1/AutoCore/AutoCore.csproj": {
+                "projectPath": "/home/moon/MockProject_Nguyetct1/AutoCore/AutoCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/205/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/moon/MockProject_Nguyetct1/AutoCore/AutoCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/moon/MockProject_Nguyetct1/AutoCore/AutoCore.csproj",
+        "projectName": "AutoCore",
+        "projectPath": "/home/moon/MockProject_Nguyetct1/AutoCore/AutoCore.csproj",
+        "packagesPath": "/home/moon/.nuget/packages/",
+        "outputPath": "/home/moon/MockProject_Nguyetct1/AutoCore/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/moon/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Allure.NUnit": {
+              "target": "Package",
+              "version": "[2.9.5-preview.1, )"
+            },
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[30.0.1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/205/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
