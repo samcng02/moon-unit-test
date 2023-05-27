@@ -28,7 +28,7 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
     vsVersion: '17.0'
-
+    restoreNugetPackages: true
 - task: VSTest@2
   inputs:
     platform: '$(buildPlatform)'
