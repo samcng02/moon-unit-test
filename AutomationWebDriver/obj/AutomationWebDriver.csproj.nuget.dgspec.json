@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/moon/MockProject_Nguyetct1/AutomationWebDriver/AutomationWebDriver.csproj": {}
+    "/home/moon/moon-unit-test/AutomationWebDriver/AutomationWebDriver.csproj": {}
   },
   "projects": {
-    "/home/moon/MockProject_Nguyetct1/AutoCore/AutoCore.csproj": {
+    "/home/moon/moon-unit-test/AutoCore/AutoCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/moon/MockProject_Nguyetct1/AutoCore/AutoCore.csproj",
+        "projectUniqueName": "/home/moon/moon-unit-test/AutoCore/AutoCore.csproj",
         "projectName": "AutoCore",
-        "projectPath": "/home/moon/MockProject_Nguyetct1/AutoCore/AutoCore.csproj",
+        "projectPath": "/home/moon/moon-unit-test/AutoCore/AutoCore.csproj",
         "packagesPath": "/home/moon/.nuget/packages/",
-        "outputPath": "/home/moon/MockProject_Nguyetct1/AutoCore/obj/",
+        "outputPath": "/home/moon/moon-unit-test/AutoCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/moon/.nuget/NuGet/NuGet.Config"
@@ -85,14 +85,14 @@
         }
       }
     },
-    "/home/moon/MockProject_Nguyetct1/AutomationWebDriver/AutomationWebDriver.csproj": {
+    "/home/moon/moon-unit-test/AutomationWebDriver/AutomationWebDriver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/moon/MockProject_Nguyetct1/AutomationWebDriver/AutomationWebDriver.csproj",
+        "projectUniqueName": "/home/moon/moon-unit-test/AutomationWebDriver/AutomationWebDriver.csproj",
         "projectName": "AutomationWebDriver",
-        "projectPath": "/home/moon/MockProject_Nguyetct1/AutomationWebDriver/AutomationWebDriver.csproj",
+        "projectPath": "/home/moon/moon-unit-test/AutomationWebDriver/AutomationWebDriver.csproj",
         "packagesPath": "/home/moon/.nuget/packages/",
-        "outputPath": "/home/moon/MockProject_Nguyetct1/AutomationWebDriver/obj/",
+        "outputPath": "/home/moon/moon-unit-test/AutomationWebDriver/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/moon/.nuget/NuGet/NuGet.Config"
@@ -107,8 +107,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/moon/MockProject_Nguyetct1/AutoCore/AutoCore.csproj": {
-                "projectPath": "/home/moon/MockProject_Nguyetct1/AutoCore/AutoCore.csproj"
+              "/home/moon/moon-unit-test/AutoCore/AutoCore.csproj": {
+                "projectPath": "/home/moon/moon-unit-test/AutoCore/AutoCore.csproj"
               }
             }
           }

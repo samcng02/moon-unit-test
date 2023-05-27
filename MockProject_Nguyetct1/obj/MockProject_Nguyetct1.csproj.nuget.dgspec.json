@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/moon/MockProject_Nguyetct1/MockProject_Nguyetct1/MockProject_Nguyetct1.csproj": {}
+    "/home/moon/moon-unit-test/MockProject_Nguyetct1/MockProject_Nguyetct1.csproj": {}
   },
   "projects": {
-    "/home/moon/MockProject_Nguyetct1/APITesting/APITesting.csproj": {
+    "/home/moon/moon-unit-test/APITesting/APITesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/moon/MockProject_Nguyetct1/APITesting/APITesting.csproj",
+        "projectUniqueName": "/home/moon/moon-unit-test/APITesting/APITesting.csproj",
         "projectName": "APITesting",
-        "projectPath": "/home/moon/MockProject_Nguyetct1/APITesting/APITesting.csproj",
+        "projectPath": "/home/moon/moon-unit-test/APITesting/APITesting.csproj",
         "packagesPath": "/home/moon/.nuget/packages/",
-        "outputPath": "/home/moon/MockProject_Nguyetct1/APITesting/obj/",
+        "outputPath": "/home/moon/moon-unit-test/APITesting/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/moon/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/moon/MockProject_Nguyetct1/AutoCore/AutoCore.csproj": {
-                "projectPath": "/home/moon/MockProject_Nguyetct1/AutoCore/AutoCore.csproj"
+              "/home/moon/moon-unit-test/AutoCore/AutoCore.csproj": {
+                "projectPath": "/home/moon/moon-unit-test/AutoCore/AutoCore.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "/home/moon/MockProject_Nguyetct1/AutoCore/AutoCore.csproj": {
+    "/home/moon/moon-unit-test/AutoCore/AutoCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/moon/MockProject_Nguyetct1/AutoCore/AutoCore.csproj",
+        "projectUniqueName": "/home/moon/moon-unit-test/AutoCore/AutoCore.csproj",
         "projectName": "AutoCore",
-        "projectPath": "/home/moon/MockProject_Nguyetct1/AutoCore/AutoCore.csproj",
+        "projectPath": "/home/moon/moon-unit-test/AutoCore/AutoCore.csproj",
         "packagesPath": "/home/moon/.nuget/packages/",
-        "outputPath": "/home/moon/MockProject_Nguyetct1/AutoCore/obj/",
+        "outputPath": "/home/moon/moon-unit-test/AutoCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/moon/.nuget/NuGet/NuGet.Config"
@@ -166,14 +166,14 @@
         }
       }
     },
-    "/home/moon/MockProject_Nguyetct1/AutomationWebDriver/AutomationWebDriver.csproj": {
+    "/home/moon/moon-unit-test/AutomationWebDriver/AutomationWebDriver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/moon/MockProject_Nguyetct1/AutomationWebDriver/AutomationWebDriver.csproj",
+        "projectUniqueName": "/home/moon/moon-unit-test/AutomationWebDriver/AutomationWebDriver.csproj",
         "projectName": "AutomationWebDriver",
-        "projectPath": "/home/moon/MockProject_Nguyetct1/AutomationWebDriver/AutomationWebDriver.csproj",
+        "projectPath": "/home/moon/moon-unit-test/AutomationWebDriver/AutomationWebDriver.csproj",
         "packagesPath": "/home/moon/.nuget/packages/",
-        "outputPath": "/home/moon/MockProject_Nguyetct1/AutomationWebDriver/obj/",
+        "outputPath": "/home/moon/moon-unit-test/AutomationWebDriver/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/moon/.nuget/NuGet/NuGet.Config"
@@ -188,8 +188,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/moon/MockProject_Nguyetct1/AutoCore/AutoCore.csproj": {
-                "projectPath": "/home/moon/MockProject_Nguyetct1/AutoCore/AutoCore.csproj"
+              "/home/moon/moon-unit-test/AutoCore/AutoCore.csproj": {
+                "projectPath": "/home/moon/moon-unit-test/AutoCore/AutoCore.csproj"
               }
             }
           }
@@ -247,36 +247,36 @@
         }
       }
     },
-    "/home/moon/MockProject_Nguyetct1/MockProject_Nguyetct1/MockProject_Nguyetct1.csproj": {
+    "/home/moon/moon-unit-test/MockProject_Nguyetct1/MockProject_Nguyetct1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/moon/MockProject_Nguyetct1/MockProject_Nguyetct1/MockProject_Nguyetct1.csproj",
+        "projectUniqueName": "/home/moon/moon-unit-test/MockProject_Nguyetct1/MockProject_Nguyetct1.csproj",
         "projectName": "MockProject_Nguyetct1",
-        "projectPath": "/home/moon/MockProject_Nguyetct1/MockProject_Nguyetct1/MockProject_Nguyetct1.csproj",
+        "projectPath": "/home/moon/moon-unit-test/MockProject_Nguyetct1/MockProject_Nguyetct1.csproj",
         "packagesPath": "/home/moon/.nuget/packages/",
-        "outputPath": "/home/moon/MockProject_Nguyetct1/MockProject_Nguyetct1/obj/",
+        "outputPath": "/home/moon/moon-unit-test/MockProject_Nguyetct1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/moon/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/moon/MockProject_Nguyetct1/APITesting/APITesting.csproj": {
-                "projectPath": "/home/moon/MockProject_Nguyetct1/APITesting/APITesting.csproj"
+              "/home/moon/moon-unit-test/APITesting/APITesting.csproj": {
+                "projectPath": "/home/moon/moon-unit-test/APITesting/APITesting.csproj"
               },
-              "/home/moon/MockProject_Nguyetct1/AutoCore/AutoCore.csproj": {
-                "projectPath": "/home/moon/MockProject_Nguyetct1/AutoCore/AutoCore.csproj"
+              "/home/moon/moon-unit-test/AutoCore/AutoCore.csproj": {
+                "projectPath": "/home/moon/moon-unit-test/AutoCore/AutoCore.csproj"
               },
-              "/home/moon/MockProject_Nguyetct1/AutomationWebDriver/AutomationWebDriver.csproj": {
-                "projectPath": "/home/moon/MockProject_Nguyetct1/AutomationWebDriver/AutomationWebDriver.csproj"
+              "/home/moon/moon-unit-test/AutomationWebDriver/AutomationWebDriver.csproj": {
+                "projectPath": "/home/moon/moon-unit-test/AutomationWebDriver/AutomationWebDriver.csproj"
               }
             }
           }
@@ -288,8 +288,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "FluentAssertions": {
               "target": "Package",
@@ -323,6 +323,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

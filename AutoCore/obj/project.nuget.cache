@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JdzSS6dgN7bEXMsG4nTePvd+KgMj4ks1z4b96GIR414d/VQ/SG+JxUkdkQ1bVnkWpA7fLo2vcaL/IcisdNonIw==",
+  "dgSpecHash": "+7uhFZ9/SIOfVLOrOs0XVRbeitugnrnL4fNq6C8FAEq0rmonpm5EeBZLKcgYvsRpXNM8MnD77tLlefqd2iOeSw==",
   "success": true,
-  "projectFilePath": "/home/moon/MockProject_Nguyetct1/AutoCore/AutoCore.csproj",
+  "projectFilePath": "/home/moon/moon-unit-test/AutoCore/AutoCore.csproj",
   "expectedPackageFiles": [
     "/home/moon/.nuget/packages/allure.net.commons/2.9.5-preview.1/allure.net.commons.2.9.5-preview.1.nupkg.sha512",
     "/home/moon/.nuget/packages/allure.nunit/2.9.5-preview.1/allure.nunit.2.9.5-preview.1.nupkg.sha512",

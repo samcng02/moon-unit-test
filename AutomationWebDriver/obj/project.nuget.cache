@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2P6QW5ZM0E+uYds+TsX7f1SCZ1dLB5ZooHoF8QobjpVSHFyhqFsqQXUpwcFrOp+EhqoaCKH+O6t5mFRluwo4/A==",
+  "dgSpecHash": "c2PeaKXWszjvHfnoZuJQdarL50g41mvx3mrOZUm/OJbq9+A+J29qEDzf1fbqx5XHbuIYxnUrgZ1xdYLvQ9+kTg==",
   "success": true,
-  "projectFilePath": "/home/moon/MockProject_Nguyetct1/AutomationWebDriver/AutomationWebDriver.csproj",
+  "projectFilePath": "/home/moon/moon-unit-test/AutomationWebDriver/AutomationWebDriver.csproj",
   "expectedPackageFiles": [
     "/home/moon/.nuget/packages/allure.net.commons/2.9.5-preview.1/allure.net.commons.2.9.5-preview.1.nupkg.sha512",
     "/home/moon/.nuget/packages/allure.nunit/2.9.5-preview.1/allure.nunit.2.9.5-preview.1.nupkg.sha512",

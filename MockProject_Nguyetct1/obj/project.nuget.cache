@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xmoi8l0IvorFARiuSiTVeTtWRCdjCGXgAWeGOz8q+z9GO6MdpURVaFkTBZ4V/kYNGX5v2wKPQH+CAXqLxcg3qg==",
+  "dgSpecHash": "uIZ26ox8KTvjbzyroTAXfwY0dGBxzkPXral+1oatyGL1Hds1dbC2kv1kVegvlRWaEpOFDStUdO3g0owdRNwHmQ==",
   "success": true,
-  "projectFilePath": "/home/moon/MockProject_Nguyetct1/MockProject_Nguyetct1/MockProject_Nguyetct1.csproj",
+  "projectFilePath": "/home/moon/moon-unit-test/MockProject_Nguyetct1/MockProject_Nguyetct1.csproj",
   "expectedPackageFiles": [
     "/home/moon/.nuget/packages/allure.net.commons/2.9.5-preview.1/allure.net.commons.2.9.5-preview.1.nupkg.sha512",
     "/home/moon/.nuget/packages/allure.nunit/2.9.5-preview.1/allure.nunit.2.9.5-preview.1.nupkg.sha512",
@@ -28,14 +28,16 @@
     "/home/moon/.nuget/packages/restsharp/110.2.0/restsharp.110.2.0.nupkg.sha512",
     "/home/moon/.nuget/packages/selenium.webdriver/4.9.0/selenium.webdriver.4.9.0.nupkg.sha512",
     "/home/moon/.nuget/packages/system.configuration.configurationmanager/7.0.0/system.configuration.configurationmanager.7.0.0.nupkg.sha512",
-    "/home/moon/.nuget/packages/system.diagnostics.eventlog/7.0.0/system.diagnostics.eventlog.7.0.0.nupkg.sha512",
     "/home/moon/.nuget/packages/system.drawing.common/7.0.0/system.drawing.common.7.0.0.nupkg.sha512",
     "/home/moon/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512",
+    "/home/moon/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/home/moon/.nuget/packages/system.security.cryptography.protecteddata/7.0.0/system.security.cryptography.protecteddata.7.0.0.nupkg.sha512",
     "/home/moon/.nuget/packages/system.security.permissions/7.0.0/system.security.permissions.7.0.0.nupkg.sha512",
     "/home/moon/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/home/moon/.nuget/packages/system.text.json/7.0.2/system.text.json.7.0.2.nupkg.sha512",
-    "/home/moon/.nuget/packages/system.windows.extensions/7.0.0/system.windows.extensions.7.0.0.nupkg.sha512"
+    "/home/moon/.nuget/packages/system.windows.extensions/7.0.0/system.windows.extensions.7.0.0.nupkg.sha512",
+    "/home/moon/.nuget/packages/microsoft.netcore.app.ref/6.0.16/microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "/home/moon/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.16/microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512"
   ],
   "logs": []
 }
