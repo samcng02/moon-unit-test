@@ -20,6 +20,6 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgNUnit_Analyzers Condition=" '$(PkgNUnit_Analyzers)' == '' ">/home/moon/.nuget/packages/nunit.analyzers/3.5.0</PkgNUnit_Analyzers>
-    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">/home/moon/.nuget/packages/newtonsoft.json/9.0.1</PkgNewtonsoft_Json>
+    <PkgAspectInjector Condition=" '$(PkgAspectInjector)' == '' ">/home/moon/.nuget/packages/aspectinjector/2.8.1</PkgAspectInjector>
   </PropertyGroup>
 </Project>

@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AutoCore
-build_property.ProjectDir = /home/moon/MockProject_Nguyetct1/AutoCore/
+build_property.ProjectDir = /home/moon/moon-unit-test/AutoCore/
