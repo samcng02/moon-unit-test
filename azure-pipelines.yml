@@ -24,6 +24,7 @@ steps:
     command: 'restore'
     restoreSolution: '**/*.sln'
     feedsToUse: 'select'
+    restoreDirectory: '../packages'
     
 - task: VSBuild@1
   inputs:
@@ -32,7 +33,6 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
     restoreNugetPackages: true
-    msbuildArchitecture: 'x64'
 
 - task: VSTest@2
   inputs:
