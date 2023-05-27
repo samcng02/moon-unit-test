@@ -28,7 +28,7 @@ steps:
   displayName: NuGet v2 Restore
   inputs:
     command: restore                      
-    restoreSolution: '$(solution)'             ## Required when command = restore. Path to solution, packages.config, or project.json. Default: **/*.sln.
+    #restoreSolution: '$(solution)'             ## Required when command = restore. Path to solution, packages.config, or project.json. Default: **/*.sln.
     feedsToUse: 'select'                    ## Required. Feeds to use. 'select' | 'config'. Alias: selectOrConfig. Default: select.
     #vstsFeed: '<PROJECT_NAME>/<FEED_NAME>'  ## Required when feedsToUse == Select. Use packages from this Azure Artifacts feed. 
     includeNuGetOrg: true                   ## Use packages from upstream (NuGet.org)
