@@ -16,12 +16,17 @@ variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
-steps: 
-  - task: DotNetCoreCLI@2
-    displayName: 'test'
-    inputs:
-      command: test
-      projects: '$(project)'
-      arguments: '--configuration $(BuildConfiguration)'
+steps:
+- task: NuGetToolInstaller@1
+  inputs:
+    versionSpec: '5.8.x'
+    checkLatest: true
+    
+- task: DotNetCoreCLI@2
+  displayName: 'test'
+  inputs:
+    command: test
+    projects: '$(project)'
+    arguments: '--configuration $(BuildConfiguration)'
 
 
