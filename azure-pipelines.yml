@@ -15,16 +15,13 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-# NuGet Installer v0
-# Installs or restores missing NuGet packages. Use NuGetAuthenticate@0 task for latest capabilities.
-
 - task: NuGetToolInstaller@1
+
 - task: NuGetCommand@2
   inputs:
     command: 'restore'
     restoreSolution: '**/*.sln'
     feedsToUse: 'select'
-    #restoreDirectory: '../packages'
     
 - task: NuGetCommand@2
   inputs:
@@ -44,8 +41,6 @@ steps:
     restoreSolution: '**/AutomationWebDriver/*.csproj'
     feedsToUse: 'select'
 
-- task: PublishBuildArtifacts@1
-
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
@@ -59,9 +54,9 @@ steps:
 #    platform: '$(buildPlatform)'
 #    configuration: '$(buildConfiguration)'
 
-
 - task: DotNetCoreCLI@2
   displayName: 'run cli2'
   inputs:
     command: test
     projects: '**/P/*.csproj'
+    configuration: '--configuration debug'
