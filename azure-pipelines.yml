@@ -65,5 +65,4 @@ steps:
       **\*test*.dll
       !**\*TestAdapter.dll
       !**\obj\**
-      !**\testhost.dll.config
     searchFolder: '$(System.DefaultWorkingDirectory)'
