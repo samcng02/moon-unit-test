@@ -31,6 +31,18 @@ steps:
     command: 'restore'
     restoreSolution: '**/APITesting/*.csproj'
     feedsToUse: 'select'
+    
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: '**/AutoCore/*.csproj'
+    feedsToUse: 'select'
+
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: '**/AutomationWebDriver/*.csproj'
+    feedsToUse: 'select'
 
 - task: PublishBuildArtifacts@1
 
