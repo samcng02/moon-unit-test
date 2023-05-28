@@ -19,13 +19,6 @@ variables:
 steps: 
   - task: NuGetToolInstaller@1
     name: 'NuGetToolInstaller'
-  
-  - task: NuGetCommand@2
-    displayName: 'comman'
-    inputs:
-      command: restore
-      restoreSolution: '$(solution)'
-      feedsToUse: select
 
   - task: DotNetCoreCLI@2
     displayName: 'test'
