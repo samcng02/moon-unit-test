@@ -29,7 +29,7 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: 'restore'
-    restoreSolution: '**/2APITesting/*.csproj'
+    restoreSolution: '**/APITesting/*.csproj'
     feedsToUse: 'select'
 
 - task: PublishBuildArtifacts@1
