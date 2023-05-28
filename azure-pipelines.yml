@@ -20,18 +20,21 @@ steps:
     name: 'NuGetToolInstaller'
   
   - task: NuGetCommand@2
+    displayName: 'comman'
     inputs:
       command: restore
       restoreSolution: '$(solution)'
       feedsToUse: select
 
   - task: DotNetCoreCLI@2
+    displayName: 'test'
     inputs:
       command: test
-      projects: '$(solution)'
+      projects: '$(project)'
       arguments: '--configuration $(BuildConfiguration)'
 
   - task: DotNetCoreCLI@2
+    displayName: 'publish'
     inputs:
       command: publish
       publishWebProjects: false
