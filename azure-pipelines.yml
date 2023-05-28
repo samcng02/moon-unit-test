@@ -59,4 +59,4 @@ steps:
   inputs:
     command: test
     projects: '**/P/*.csproj'
-    configuration: '--configuration debug'
+    configuration: '$(buildConfiguration)'
