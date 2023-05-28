@@ -58,7 +58,7 @@ steps:
 - task: DotNetCoreCLI@2
   displayName: 'run cli2'
   inputs:
-    #command: test
+    command: test
     projects: '**/P/*.csproj'
     #configuration: '$(buildConfiguration)'
     #arguments: '--no-build'
