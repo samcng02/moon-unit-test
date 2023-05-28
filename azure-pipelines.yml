@@ -4,58 +4,38 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
 
 trigger:
-- main
+- none
 
 pool:
   vmImage: 'windows-latest'
 
 variables:
   solution: '**/*.sln'
+  project: '**/P/*.csproj'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
-steps:
-- task: NuGetToolInstaller@1
-    
-- task: NuGetCommand@2
-  inputs:
-    command: 'restore'
-    restoreSolution: '**/APITesting/*.csproj'
-    feedsToUse: 'select'
-    
-- task: NuGetCommand@2
-  inputs:
-    command: 'restore'
-    restoreSolution: '**/AutoCore/*.csproj'
-    feedsToUse: 'select'
+steps: 
+  - task: NuGetToolInstaller@1
+    name: 'NuGetToolInstaller'
+  
+  - task: NuGetCommand@2
+    inputs:
+      command: restore
+      restoreSolution: '$(solution)'
+      feedsToUse: select
 
-- task: NuGetCommand@2
-  inputs:
-    command: 'restore'
-    restoreSolution: '**/AutomationWebDriver/*.csproj'
-    feedsToUse: 'select'
+  - task: DotNetCoreCLI@2
+    inputs:
+      command: test
+      projects: '$(solution)'
+      arguments: '--configuration $(BuildConfiguration)'
 
-- task: NuGetCommand@2
-  displayName: 'nuget sln'
-  inputs:
-    command: 'restore'
-    restoreSolution: '**/*.sln'
-    feedsToUse: 'select'
+  - task: DotNetCoreCLI@2
+    inputs:
+      command: publish
+      publishWebProjects: false
+      projects: '$(project)'
+      arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+      zipAfterPublish: false
 
-- task: DotNetCoreCLI@2
-  inputs:
-    command: build
-    projects: $(solution)
-
-#- task: VSTest@2
-#  inputs:
-#    platform: '$(buildPlatform)'
-#    configuration: '$(buildConfiguration)'
-
-- task: DotNetCoreCLI@2
-  displayName: 'run cli2'
-  inputs:
-    command: test
-    projects: '**/P/*.csproj'
-    arguments: '--configuration Release'
-    publishTestResults: true
