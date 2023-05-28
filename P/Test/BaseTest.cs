@@ -35,6 +35,7 @@ namespace MockProject_Nguyetct1.Test
         public void TearDown()
         {
             driver.Close();
+            driver.Quit();
         }
 
     }
