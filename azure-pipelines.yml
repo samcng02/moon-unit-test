@@ -19,8 +19,8 @@ variables:
 steps:
 - task: NuGetToolInstaller@1
   inputs:
-    versionSpec: '5.8'
-    checkLatest: true
+    versionSpec: '5.8.x'
+    #checkLatest: true
 
 - task: NuGetCommand@2
   displayName: 'comman'
