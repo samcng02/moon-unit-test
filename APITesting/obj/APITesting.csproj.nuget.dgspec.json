@@ -1,33 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "/home/moon/moon-unit-test/APITesting/APITesting.csproj": {}
+    "D:\\moon-unit-test\\APITesting\\APITesting.csproj": {}
   },
   "projects": {
-    "/home/moon/moon-unit-test/APITesting/APITesting.csproj": {
+    "D:\\moon-unit-test\\APITesting\\APITesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/moon/moon-unit-test/APITesting/APITesting.csproj",
+        "projectUniqueName": "D:\\moon-unit-test\\APITesting\\APITesting.csproj",
         "projectName": "APITesting",
-        "projectPath": "/home/moon/moon-unit-test/APITesting/APITesting.csproj",
-        "packagesPath": "/home/moon/.nuget/packages/",
-        "outputPath": "/home/moon/moon-unit-test/APITesting/obj/",
+        "projectPath": "D:\\moon-unit-test\\APITesting\\APITesting.csproj",
+        "packagesPath": "C:\\Users\\sangnt03\\.nuget\\packages\\",
+        "outputPath": "D:\\moon-unit-test\\APITesting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/moon/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\sangnt03\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/moon/moon-unit-test/AutoCore/AutoCore.csproj": {
-                "projectPath": "/home/moon/moon-unit-test/AutoCore/AutoCore.csproj"
+              "D:\\moon-unit-test\\AutoCore\\AutoCore.csproj": {
+                "projectPath": "D:\\moon-unit-test\\AutoCore\\AutoCore.csproj"
               }
             }
           }
@@ -66,41 +68,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.16, 6.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.16, 6.0.16]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/205/sdk/7.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/moon/moon-unit-test/AutoCore/AutoCore.csproj": {
+    "D:\\moon-unit-test\\AutoCore\\AutoCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/moon/moon-unit-test/AutoCore/AutoCore.csproj",
+        "projectUniqueName": "D:\\moon-unit-test\\AutoCore\\AutoCore.csproj",
         "projectName": "AutoCore",
-        "projectPath": "/home/moon/moon-unit-test/AutoCore/AutoCore.csproj",
-        "packagesPath": "/home/moon/.nuget/packages/",
-        "outputPath": "/home/moon/moon-unit-test/AutoCore/obj/",
+        "projectPath": "D:\\moon-unit-test\\AutoCore\\AutoCore.csproj",
+        "packagesPath": "C:\\Users\\sangnt03\\.nuget\\packages\\",
+        "outputPath": "D:\\moon-unit-test\\AutoCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/moon/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\sangnt03\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -147,22 +141,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.16, 6.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.16, 6.0.16]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/205/sdk/7.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
